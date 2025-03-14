@@ -99,7 +99,7 @@ Use this option to exit the script safely.
 
 ## 🤝 Contributing
 
-This project was developed by **Vetrigo** and **Chen Bracha**. 
+This project was developed by **Chen Bracha** and **Vetrigo**. 
 
 Contributions are welcome! Feel free to **open an issue** or **submit a pull request**.
 
