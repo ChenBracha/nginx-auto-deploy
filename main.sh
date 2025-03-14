@@ -1,4 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#######################
+# Date:14/03/2025 (D/M/Y) 
+# Developers: ChenBracha & Leon Avetisian
+# Version: 0.0.10
+# Description: Create a shell script to automate the setup of **UserDir, Authentication (Basic & PAM)
+# CGI scripting, and Virtual Hosts** in NGINX
+# ensuring dependencies are installed and configurations are properly managed.
+######################
 
 check_os_and_nginx() {
     # Check if the OS is Ubuntu or Debian
@@ -151,7 +159,7 @@ EOF
 
 show_menu() {
     while true; do
-        echo "\nSelect an option:"
+        echo -e  "\nSelect an option:"
         echo "1. Configure a new host"
         echo "2. Configure UserDir"
         echo "3. Configure Basic Authentication"
